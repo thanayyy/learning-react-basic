@@ -1,9 +1,10 @@
 import React from "react";
+import '../css/Item.css'
 //import {useState} from 'react';
 const Item = ({data, deleteStudent}) => {
   return (
     <>
-      <li key={data.id}>
+      <li key={data.id} className={data.gender}>
         <p>
           {data.id} - {data.name}
         </p>

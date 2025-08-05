@@ -16,6 +16,7 @@ const AddForm = ({ students, setStudent }) => {
       };
       setStudent([...students, newStudent]);
       setName("");
+      setGender("male")
     }
   };
   return (
